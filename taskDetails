@@ -1,0 +1,1 @@
+As a system administrator monitoring auth.log for security audits, create a Bash script that defines file="auth.log", creates a test file under root / with rwxrwxrwx permissions containing sample log entries, searches for "Failed password" (common in failed SSH attempts), and counts its exact occurrences to quantify brute-force attacks in real-time log analysis.
